@@ -50,7 +50,7 @@ export default function SetupScreen({ onStartGame }: SetupScreenProps) {
               onChange={(e) => setPlayerName(e.target.value)}
               onKeyPress={handleKeyPress}
               placeholder="Nombre del jugador"
-              className="flex-1 rounded-lg border-2 border-gray-300 px-4 py-3 text-lg focus:border-purple-500 focus:outline-none"
+              className="flex-1 rounded-lg border-2 border-gray-300 px-4 py-3 text-gray-800 text-lg focus:border-purple-500 focus:outline-none"
               maxLength={20}
             />
             <button
@@ -98,7 +98,7 @@ export default function SetupScreen({ onStartGame }: SetupScreenProps) {
             id="impostors"
             value={numberOfImpostors}
             onChange={(e) => setNumberOfImpostors(Number(e.target.value))}
-            className="w-full rounded-lg border-2 border-gray-300 px-4 py-3 text-lg focus:border-purple-500 focus:outline-none"
+            className="w-full rounded-lg border-2 text-gray-800 border-gray-300 px-4 py-3 text-lg focus:border-purple-500 focus:outline-none"
           >
             <option value={1}>1 Impostor</option>
             <option value={2}>2 Impostores</option>
