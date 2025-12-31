@@ -47,17 +47,28 @@ export const SPANISH_WORDS = [
   "Casa",
   "Jardín",
   
-  // Actions (Acciones)
-  "Bailar",
-  "Nadar",
-  "Cocinar",
-  "Dormir",
-  "Correr",
-  "Cantar",
-  "Leer",
-  "Escribir",
-  "Saltar",
-  "Volar",
+  // Professions (Profesiones)
+    "Doctor",
+    "Ingeniero",
+    "Profesor",
+    "Artista",
+    "Músico",
+    "Cocinero",
+    "Abogado",
+    "Obstetra",
+    "Programador",
+    "Diseñador",
+    "Psicólogo",
+
+    // Argentinian Spanish specific words
+    "Bondi",
+    "Pibe",
+    "Quilombo",
+    "Birra",
+    "Moria Casan",
+    "Miranda",
+    "Chano"
+
 ] as const;
 
 export function getRandomWord(): string {
